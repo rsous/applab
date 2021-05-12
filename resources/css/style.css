@@ -236,7 +236,7 @@ html {
 }
 
 .mid-section {
-  margin: 8rem 0 0 0;
+  margin: 10rem 0;
 }
 
 /* ___________________________________________________________________________ */
@@ -492,6 +492,7 @@ html {
 .why-choose-text {
   text-align: center;
   margin-bottom: 10rem;
+  width: 100%;
 }
 .why-choose-text h2 {
   width: 48rem;
@@ -1018,7 +1019,7 @@ html {
 
 .socials i {
   font-size: 3.4rem;
-  margin: 0 1rem;
+  margin: 1rem;
   color: #616368;
 }
 
@@ -1164,7 +1165,6 @@ html {
   }
 
   .features-right-top {
-    width: 95%;
     margin-bottom: 2rem;
   }
 
@@ -1281,7 +1281,7 @@ html {
 
 @media only screen and (max-width: 900px) {
   .container {
-    max-width: 70rem;
+    max-width: 90%;
   }
 
   .header nav .btn-full,
@@ -1299,5 +1299,286 @@ html {
 
   .features-left .features-phone-2 {
     height: 55rem;
+  }
+
+  .hero-grid {
+    max-width: 80%;
+    padding: 5rem 0;
+  }
+
+  .hero-text {
+    grid-column: 1 / -1;
+  }
+
+  .phone-app {
+    grid-column: 1 / -1;
+    justify-content: center;
+  }
+
+  .hero-text h1 {
+    font-size: 3.2rem;
+  }
+
+  .hero-text p {
+    font-size: 1.6rem;
+  }
+
+  .phone-app {
+    display: none;
+  }
+
+  .companies {
+    flex-wrap: wrap;
+  }
+
+  .companies > img {
+    margin: 1.5rem 1.5rem;
+  }
+
+  .features-left {
+    display: none;
+  }
+
+  .features-right {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 80%;
+  }
+
+  .features-right-top {
+    margin-bottom: 5rem;
+  }
+
+  .features__list {
+    justify-content: space-between;
+  }
+
+  .jackpots__head h2 {
+    font-size: 2.6rem;
+  }
+
+  .jackpots__head-line {
+    margin: 0 2rem;
+  }
+
+  .why-choose-text h2,
+  .why-choose-text p {
+    width: 80%;
+  }
+
+  .why-choose-text h2 {
+    font-size: 2.6rem;
+  }
+
+  .ultimate {
+    justify-content: center;
+  }
+
+  .ultimate .right {
+    display: none;
+  }
+
+  .ultimate .left {
+    width: 80%;
+  }
+
+  .ultimate-text {
+    width: 100%;
+  }
+
+  .ultimate .row-2,
+  .ultimate .row-3 {
+    width: 100%;
+  }
+
+  .ultimate .jackpots__benefits__item {
+    width: 50%;
+  }
+
+  .ultimate .btn-full {
+    align-self: center;
+  }
+
+  .plans-text {
+    width: 100%;
+  }
+
+  .testimonial .left-left {
+    display: none;
+  }
+
+  .cont-flex {
+    justify-content: center;
+  }
+
+  .testimonial .left {
+    width: 0;
+  }
+
+  .testimonial .right {
+    width: 100%;
+  }
+
+  .testimonial-text {
+    width: 100%;
+  }
+
+  .testimonial-text h2 {
+    font-size: 2.6rem;
+    width: 100%;
+  }
+
+  /* Especial class for titles */
+  .features-right-top h2 {
+    font-size: 2.6rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .jackpots__benefits {
+    flex-direction: column;
+  }
+
+  .jackpots__benefits__item {
+    width: 100%;
+  }
+
+  .jackpots__benefits__item:not(:last-child) {
+    margin-bottom: 4rem;
+  }
+
+  .left-right {
+    flex-direction: column;
+  }
+
+  .integration .left {
+    width: 40rem;
+    margin-bottom: 3rem;
+  }
+
+  .integration .right {
+    width: 100%;
+  }
+
+  .ultimate .left {
+    text-align: center;
+  }
+
+  .ultimate .row-2,
+  .ultimate .row-3 {
+    flex-direction: column;
+  }
+
+  .ultimate .jackpots__benefits__item {
+    width: 100%;
+  }
+
+  .ultimate .jackpots__benefits__item:nth-child(2) {
+    margin: 0;
+  }
+
+  .plans-text h2 {
+    font-size: 2.6rem;
+  }
+
+  .plans-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card-monthly {
+    margin-bottom: 4rem;
+  }
+
+  .testimonial {
+    margin: 8rem 0;
+  }
+
+  .faq {
+    margin: 10rem 0;
+  }
+
+  .questions h3 {
+    font-size: 1.8rem;
+  }
+
+  .down-flex {
+    text-align: center;
+  }
+
+  .apps-btns {
+    margin: 0 auto;
+  }
+
+  .down-left {
+    width: 100%;
+  }
+
+  .down-right {
+    display: none;
+    width: 0;
+  }
+
+  .download {
+    margin-bottom: 0;
+  }
+
+  .download-text {
+    width: 100%;
+    padding-bottom: 5rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero-text {
+    width: 100%;
+  }
+
+  .hero-text h1 {
+    font-size: 2.6rem;
+    margin-top: 3rem;
+  }
+
+  .hero-text .note {
+    font-size: 1.4rem;
+    padding: 0.5rem 2rem 0.5rem 3rem;
+  }
+
+  .hero-text .note img {
+    margin-left: -12px;
+  }
+
+  .hero-buttons {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero-buttons a:last-child {
+    margin-top: 2rem;
+    margin-left: 0;
+  }
+
+  .trusted-by {
+    height: auto;
+  }
+
+  .jackpots__head {
+    flex-direction: column;
+  }
+
+  .jackpots__head-line {
+    height: 0.2rem;
+    width: 70%;
+    background: #cfcfce;
+    border-radius: 2px;
+    margin: 4rem 0;
+  }
+
+  .jackpots__head h2,
+  .jackpots__head p {
+    width: 100%;
   }
 }
